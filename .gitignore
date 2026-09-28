@@ -1,0 +1,40 @@
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & Dependencies
+venv/
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+.DS_Store
+
+# PyTorch checkpoints, weights, and model outputs
+*.pt
+*.pth
+*.bin
+weights/
+checkpoints/
+outputs/
+runs/
+
+# Hugging Face cache (BERT local cache)
+.cache/
+huggingface/
+
+# Dataset files and logs
+SimpleQuestions_v2/
+data/
+datasets/
+*.csv
+*.json
+*.log
+wandb/
+tensorboard/
